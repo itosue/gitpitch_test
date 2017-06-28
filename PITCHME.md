@@ -17,7 +17,28 @@ sortコマンドの実行速度が違う　要素→（parallel・Mac内蔵vsGNU
 sort@mac||
 gsort@mac||
 sort@centOS7||
-
+<table>
+  <tr>
+    <th>コマンド</th>
+    <th>そのまま実行</th> 
+    <th>Parallelオプション付</th>
+  </tr>
+  <tr>
+    <td>sort@mac</td>
+    <td>n/a</td>
+    <td>n/a</td>
+  </tr>
+  <tr class="fragment">
+    <td>gsort@mac</td>
+    <td>n/a</td>
+    <td>n/a</td>
+  </tr>
+  <tr class="fragment">
+    <td>sort@centOS7</td>
+    <td>n/a</td>
+    <td>n/a</td>
+  </tr>
+</table>
 +++
 ### 実行環境について
 sort@mac 5.93(2005)
