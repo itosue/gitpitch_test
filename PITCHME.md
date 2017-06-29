@@ -11,12 +11,8 @@ itosue
 sortコマンドの実行速度が違う　要素→（parallel・Mac内蔵vsGNU・システムのスケジューリング）
 
 
-−−−
-コマンド|そのまま実行|parallelオプションあり
-----------|---------|-----------
-sort@mac||
-gsort@mac||
-sort@centOS7||
+−−− 
+
 <table>
   <tr>
     <th>コマンド</th>
@@ -25,16 +21,21 @@ sort@centOS7||
   </tr>
   <tr>
     <td>sort@mac</td>
-    <td>n/a</td>
-    <td>n/a</td>
+    <td>49.846s</td>
+    <td>オプション無し</td>
   </tr>
-  <tr class="fragment">
+  <tr>
     <td>gsort@mac</td>
+    <td>37.142s</td>
+    <td>34.282s</td>
+  </tr>
+  <tr>
+    <td>sort@centOS7</td>
     <td>n/a</td>
     <td>n/a</td>
   </tr>
-  <tr class="fragment">
-    <td>sort@centOS7</td>
+  <tr>
+    <td>sort@Azure</td>
     <td>n/a</td>
     <td>n/a</td>
   </tr>
