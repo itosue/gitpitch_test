@@ -13,34 +13,15 @@ sortコマンドの実行速度が違う　要素→（parallel・Mac内蔵vsGNU
 
 −−− 
 
-<table>
-  <tr>
-    <th>コマンド</th>
-    <th>そのまま実行</th> 
-    <th>Parallelオプション付</th>
-  </tr>
-  <tr>
-    <td>sort@mac</td>
-    <td>49.846s</td>
-    <td>オプション無し</td>
-  </tr>
-  <tr>
-    <td>gsort@mac</td>
-    <td>37.142s</td>
-    <td>34.282s</td>
-  </tr>
-  <tr>
-    <td>sort@centOS7</td>
-    <td>n/a</td>
-    <td>n/a</td>
-  </tr>
-  <tr>
-    <td>sort@Azure</td>
-    <td>n/a</td>
-    <td>n/a</td>
-  </tr>
-</table>
+コマンド | オプション無し | --parallel=N(最大コア数) | --parallel=1
+------------ | ------------- | ------------- | -------------
+sort@mac | 49.846s | オプション存在せず | オプション存在せず
+gsort@mac | 33.772s | 34.223s(4) | 46.422s
+sort@Azure A8v2 | 29.213s | 29.093s(8) | 1m12.125s
+
+
 +++
+
 ### 実行環境について
 sort@mac 5.93(2005)
 gsort@mac 8.27(2017) via homebrew coreutils 
