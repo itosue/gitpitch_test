@@ -58,5 +58,3 @@ parallelオプションの指定数 | real | user | sys
 * 使うコア数が多ければ良いというものではない。
 * 手元環境の特性を知っておくと作業効率UP!
 * 標準ツール結構進化してる! 　参考：[RHL7/CentOS7の時代なのでcoreutils 8.22まで追いかけてみた](http://qiita.com/ma2saka/items/4099443efc2b93fe8fcd)
-
-以上
