@@ -32,7 +32,7 @@ sort@Azure2 | 29.255s | 28.413s(8) | 1m10.404s
 ---------------- | ----------------- | ----------------- | -----------------
 sort@mac | 5.93(2005) | Core i5 2.4GHz(2.9GHz) 2C4T | MBP late2013に最初から入ってるやつ
 gsort@mac | 8.27(2017) | 同上 | brew install coreutilsで入ったやつ
-sort@Azure1 | 8.22(2013) | Xeon E5-2660 2.20GHz(3GHz) 8C8T | CentOS 7.3に最初から入ってるやつ (VMのサイズはA8v2:Rogue Wave Softwareのイメージを使用)
+sort@Azure1 | 8.22(2013) | Xeon E5-2660 2.20GHz(3GHz) 8C8T | CentOS 7.3に最初から入ってるやつ (VMのサイズはmacのCPUに特性が近いと思われるA8v2を選択。イメージはRogue Wave Softwareのものを使用)
 sort@Azure2 | 8.27(2017) | Xeon E5-2660 2.20GHz(3GHz) 8C8T | ソースからビルド
 
 +++
